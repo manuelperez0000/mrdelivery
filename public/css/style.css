@@ -1,0 +1,169 @@
+body{
+  width: 100%;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.bg-white-t{
+  background: rgba(255, 255, 255, 0.9);
+}
+.img-cat{
+  width: 80px;
+  height: 80px;
+}
+.img-detalle{
+  width: 100px;
+  height: 100px;
+}
+.cet-menu{
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.media-cat{
+  transition: 0.5s;
+  border:1px solid rgba(211, 211, 211, 0.329);
+  margin-bottom: 10px;
+}
+.media-cat:hover{
+  transform: scale(1.03);
+  border:1px solid rgba(175, 175, 175, 0.623);
+  -webkit-box-shadow: 10px 10px 14px -14px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 14px -14px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 14px -14px rgba(0,0,0,0.75);
+}
+.calification{
+  float: right;
+  top:0px;
+  right: 0px;
+}
+.agregar{
+  float: right;
+}
+.precio-detalle{
+  float: right;
+}
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.border-1-w{
+  border-radius: 3px;
+  border:1px solid #fff;
+}
+.border-1-w:hover{
+  border-radius: 3px;
+  border:1px solid rgb(255, 255, 255);
+}
+.a-media{
+  color:#222;
+}
+.a-media:hover{
+  text-decoration: none;
+  color: rgb(49, 49, 49);
+}
+.amarillo{
+  color: rgb(255, 255, 0);
+}
+.amarillo2{
+  color: gold;
+}
+
+.dorado{
+  color: rgba(211, 211, 7, 0.945);
+}
+.bg-azul-oscuro{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.774) 30%,rgba(0, 0, 0, 0.781) 90%), url('../img/burger-bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  
+}
+.corazon{
+  position:absolute;
+  right: 20px;
+  top:5px;
+}
+.categria{
+  position:absolute;
+  left: 20px;
+  bottom:10px;
+  font-weight: 900;
+  color: #fff;
+}
+.bg-categoria{
+  height: 170px;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+.bg-categoria:before {
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+.bg-categoria:hover:before {
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+	background-color: rgba(53, 53, 53, 0.562);
+}
+.text-logo{
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+.img-fluid{
+  border-radius: 5px;
+}
+
+.btn-azul-oscuro{
+  background: rgb(2, 41, 73);
+  transition: 0.4s;
+}
+.btn-azul-oscuro:hover{
+  background: rgba(3, 54, 95, 0.829);
+}
+.a-cat:hover{
+  border: 1px solid rgb(0, 0, 0);
+}
+footer{
+  -webkit-box-shadow: inset 0px 21px 39px -9px rgba(156,46,6,1);
+  -moz-box-shadow: inset 0px 21px 39px -9px rgba(156,46,6,1);
+  box-shadow: inset 0px 21px 39px -9px rgba(156,46,6,1);
+  padding: 10px;
+}
+.h-40px{
+  height: 40px;
+}
+.redes{
+  height: 40px;
+  transition: 0.5s;
+}
+.redes:hover{
+  cursor: pointer;
+  height: 46px;
+}
+.h-100px{
+  height: 50px;
+}
+.llamanos{
+  
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+}
+.hover:hover{
+  color: rgb(255, 251, 0);
+}

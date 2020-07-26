@@ -1,0 +1,42 @@
+<div class="py-4 bg-azul-oscuro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center my-3 bg-white-t rounded p-4">
+            <h1 class="">Registro</h1>
+            <form action="/register" method="POST">
+            <div class="input-group mb-3">
+                    <div class="input-group-append">
+                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                    </div>
+                    <input autofocus type="text" name="name" class="form-control" placeholder="Tu Nombre">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-append">
+                        <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                    </div>
+                    <input type="text" name="telefono" class="form-control" placeholder="Telefono">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-append">
+                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                    </div>
+                    <input type="text" name="email" class="form-control" placeholder="Correo">
+                </div>
+                <div class="input-group mb-2">
+                    <div class="input-group-append">
+                        <span class="input-group-text"><i class="fas fa-key"></i></span>
+                    </div>
+                    <input type="password" name="pass" class="form-control" placeholder="Contraseña">
+                </div>
+                <button type="submit" class="mt-2 btn btn-primary form-control">Registrarme</button>
+            </form>
+            <div class="mt-4">
+                <div class="d-flex justify-content-center links">
+                    ¿Ya tienes una cuenta? <a href="/login" class="ml-2">Login</a>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
